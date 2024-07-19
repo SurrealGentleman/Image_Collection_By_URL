@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    background-color: gray;
+    gap: 10px;
+}
+
+.cell{
+	align-content: center;
+	text-align: center;
+	align-content: center;
+}
+
+.cell img{
+	max-width: 100%;
+}
+
+h4{
+	margin-top: 15px;
+}
